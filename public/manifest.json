@@ -1,0 +1,47 @@
+{
+    "name": "Customer Chit Remainder",
+    "version": "0.0.1",
+    "size": {
+        "width": 3,
+        "height": 3
+    },
+    "mapping": [
+        {
+            "dataSetId": "f6569139-65e5-4d55-8825-b85e3661e854",
+            "alias": "customer_chit_data",
+            "fields":[]
+        }
+    ],
+    "workflowMapping": [
+        {
+            "alias": "eig_mail",
+            "modelId": null,
+            "version": null,
+            "parameters": [
+                {
+                    "name": "to",
+                    "aliasedName": "to",
+                    "type": "text",
+                    "list": false,
+                    "children": []
+                },
+                {
+                    "name": "subject",
+                    "aliasedName": "subject",
+                    "type": "text",
+                    "list": false,
+                    "children": []
+                },
+                {
+                    "name": "body",
+                    "aliasedName": "body",
+                    "type": "text",
+                    "list": false,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "id": "64de5785-ab32-48e2-8295-4ccd6e0beabf",
+    "proxyId":"ffe62917-9289-4a4c-8961-f0aacbe3343c"
+}
